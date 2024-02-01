@@ -1,0 +1,2 @@
+body{background-color:#f1f5f9}.container{display:flex;justify-content:center}th:first-of-type{border-top-left-radius:10px}th:last-of-type{border-top-right-radius:10px}tr:last-of-type td:first-of-type{border-bottom-left-radius:10px}tr:last-of-type td:last-of-type{border-bottom-right-radius:10px}td,th{border-left:1px solid #000;border-top:1px solid #000;padding:15px}th{background-color:#2e5090;color:#fff}tr:nth-child(2n){background-color:#72a0c1}tr:hover{background-color:#b9d9eb}
+/*# sourceMappingURL=main.87c4c728.css.map*/
