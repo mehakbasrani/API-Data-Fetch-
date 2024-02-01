@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+th:first-of-type {
+  border-top-left-radius: 10px;
+}
+th:last-of-type {
+  border-top-right-radius: 10px;
+}
+tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 10px;
+}
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 10px;
+}
+
+td,
+th {
+  border-left: solid black 1px;
+  border-top: solid black 1px;
+}
+
+td,
+th {
+  padding: 15px;
+}
+
+th {
+  background-color: #2e5090;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #72a0c1;
+}
+
+tr:hover {
+  background-color: #b9d9eb;
+}
